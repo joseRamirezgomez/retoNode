@@ -1,0 +1,143 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+header{
+    margin-left: -10px;
+    margin-right: -10px;
+    background: #1D1D1D;
+    position: relative;  
+}
+header .comun{
+
+    background: #bb1626;
+    color: #fff;
+}
+.comun p{
+    margin-left: 3rem;
+}
+header .men{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header .men img{
+    margin-left: 3rem;
+    margin-right: 2rem;
+    height: 80px;
+    width: 100px;
+}
+header .men a{
+    color: #fff;
+    margin-right: 2rem;
+    text-decoration: none;
+}
+header a:hover{
+    color: #bb1626;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.slider{
+    margin-top: 3rem;
+}
+.slider .image{
+    background-image: url('../img/1.jpeg');
+    height: 500px;
+    width: 1010px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.image button{
+    color: yellow;
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+.image button :hover{
+    background: yellow;
+    color: #fff;
+}     
+.menudate{
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+.menudate .colum{
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+.colum h2{
+    color: #bb1626;
+}
+.colum p{
+    font-size: 16px;
+    text-align: center;
+}
+.menu button{
+    color: #fff;
+    background: #bb1626;
+    border-radius: 15px;
+    border: none;
+    display: flex;
+    align-items: center;
+    height: 35px;
+    cursor: pointer;
+}
+.menu button img{
+    width: 25px;
+    border-radius: 50%;
+}
+.noticias{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.noticias .container-not{
+    display: flex;
+   align-items: start;
+   justify-content: space-around
+    
+}
+.noticias h2{
+    color: #bb1626;
+}
+.noticias .not{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    margin-right: 2.5rem;
+}
+.not img{
+    max-width: 250px;
+}
+.ubic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #bb1626;
+}
+.ubic img{
+  width: 900px;
+
+}
+.ubic .logo{
+    width: 250px;
+}   
+.redes{
+    color: #bb1626;
+    font-size: 40px;
+    cursor: pointer;
+}
+.redes a{
+    text-decoration: none;
+    color: #bb1626;
+}

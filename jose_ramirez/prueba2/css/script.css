@@ -1,0 +1,90 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container-juego {
+    background: rgb(245, 238, 238);
+    width: 700px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+/*decoracion titulo*/
+.tit{
+    background: #bb1626;
+   border-radius: 15px;
+    width: 700px;
+    text-align: center;
+}
+.container-juego .container{
+    height: 400px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.container .colums, .columa, .columb{
+    background: #41404098;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/*fichas*/
+.fig1{
+    text-align: center;
+    width: 30px;
+    background: #bb1626;
+    margin-bottom: 5px;
+}
+
+.fig2{
+    text-align: center;
+    width: 50px;
+    background: #bb1626;
+    margin-bottom: 5px;
+}
+.fig3{
+    text-align: center;
+    width: 70px;
+    background: #bb1626;
+    margin-bottom: 5px;
+}
+.fig4{
+    text-align: center;
+    width: 90px;
+    background: #bb1626;
+    margin-bottom: 5px;
+}
+.fig5{
+    text-align: center;
+    width: 110px;
+    background: #bb1626;
+    margin-bottom: 5px;
+}
+.fig6{
+    text-align: center;
+    width: 130px;
+    background: #bb1626;
+    margin-bottom: 5px;
+}
+.btns{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+.btns button{
+    background: #bb1626;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 70px;
+}
